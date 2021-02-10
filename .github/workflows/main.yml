@@ -1,0 +1,5 @@
+name: Actions Playground
+on: [push]
+defaults:
+  run:
+    shell: echo "hello actions"
