@@ -1,5 +1,9 @@
 name: Actions Playground
 on: [push]
-defaults:
-  run:
-    shell: echo "hello actions"
+
+
+jobs:
+  ubuntu: 
+    runs-on: ubuntu-latest
+    steps:
+      - run: date
